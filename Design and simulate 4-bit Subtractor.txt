@@ -1,9 +1,0 @@
-Design and simulate 4-bit Subtractor. Show the block diagram and truth table as well. 
-Module Code:
-module subtractor(
-    input [3:0] A,
-    input [3:0] B,
-    output [3:0] D
-);
-assign D = A - B;
-endmodule
